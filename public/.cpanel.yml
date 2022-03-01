@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ck1vrv17ii4a/public_html/neutronschool.com/
+    - /bin/cp * $DEPLOYPATH
