@@ -1,0 +1,11 @@
+{
+    "/js/backend.js": "/js/backend.js",
+    "/js/frontend.js": "/js/frontend.js",
+    "/css/frontend.css": "/css/frontend.css",
+    "/css/backend.css": "/css/backend.css",
+    "/js/frontend1.js": "/js/frontend1.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/js/vendor.js": "/js/vendor.js",
+    "/css/frontend1.css": "/css/frontend1.css",
+    "/css/backend1.css": "/css/backend1.css"
+}
