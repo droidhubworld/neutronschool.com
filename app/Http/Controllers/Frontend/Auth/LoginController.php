@@ -24,7 +24,6 @@ class LoginController extends BaseController
      */
     public function redirectPath()
     {
-
         return route(home_route());
         // if (access()->allow('view-backend')) {
         //     return route('admin.dashboard');
