@@ -100,7 +100,7 @@ class CategoryController extends Controller
         return new EditResponse($category,$this->repository);
     }
 
-  /**
+    /**
      * @param App\Models\Auth\Category $category
      * @param \App\Http\Requests\Backend\Auth\Category\UpdateCategoryRequest $request
      *
