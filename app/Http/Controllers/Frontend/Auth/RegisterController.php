@@ -51,7 +51,8 @@ class RegisterController extends BaseController
         abort_unless(config('access.registration'), 404);
 
         return view('frontend.auth.register')
-        ->withCategorys($this->getCategory());
+        ->withCategorys($this->getCategory())
+        ->withLocation($this->getLocation());
     }
 
     public function showTrainerRegistrationForm()

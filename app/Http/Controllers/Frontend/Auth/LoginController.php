@@ -39,7 +39,8 @@ class LoginController extends BaseController
     public function showLoginForm()
     {
         return view('frontend.auth.login')
-        ->withCategorys($this->getCategory());
+        ->withCategorys($this->getCategory())
+        ->withLocation($this->getLocation());
     }
 
     /**
